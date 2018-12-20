@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYYq2DT/////AAABmYYOHrLJ/0FRpfGxNyUwuag5HHOq3CjHc/EmFviKJc8F3vatyk8PzTVt2MuO5Dsc+/rF+rKTrh5g7CQ4w2IqpgZHk5c0w3Vce1pgLvRYv4M+q4zdsdLHFpUyBuv2LlGqvDDRiobtPx4j29Lxx7JtO+l0po6myQL3Bx9x8cGzs+CYhh6VjerG22VNA3OXpIMJvXBSFkpZ/05C7m+XUHS/aeafODnS2oe7M7FkNXRgUHbzSuoblrTSXOlYNs2RAreUs7lG1KbpbCLnN0obs0G/zG3ir8VBp8Vaixob53WB7SFaI/HpwLxaczLGkuoN0mLB0YiNgDJJSBof5wws5Wy3gDGeLdyQArkTv4vawAJAnWWk
-    ufoLicenseKey: QVpwaFZWei8vLy8vQUFBQUtNSGxUS2NwaWt6YWx5dFphL0JWSTZSRllOSkExV3hLTU5PN204YmUyRVpnbmJERVpZUlhjVzNyUUtjTlkvYnBCMjJPTHNWSnlpMVhtS1ZZdFE3S3hjU0NIVnV3QVFPWGllN045UiswUWlEbFJFbkRYanQxSmV6L3FZNEFJMHNLQVI1c0EyNmE0SWdVbHhXaHdqVDVwbzhXeVUvbnNPbnNjdm5kdU1VTjIrMlZ1YTVFU3k2bERnd0QrMWx5R1N0bWpzdG8yK0dsOWNuQWN1UUNnSE5KWDljTXJ5bnlvZnFnK2xmZjh6dmNqYWlVVW12K1IyelVFUTlGZWU1bkhGZnkwYUtBbURqL1J3UUZvNXdvU3d4Z2dTdVUyaVlzcUZiQXNwZE4waVNOeHF2aTMyNEtyckRIUFQ5clViRGtIU3ZxeVlzdlF1WFVOZ0tEVGVtOFJ4RnNtV3lEVmJjRnJZRU0ydWZMcGdXL2NULy8=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVZNSWhNdi8vLy8vQUFBQUtIVWdWZC9kTVU2NnJsQ042RXhlRjNNVDFzRjR6cVNyQXRQTlU2TTMveUM2SlV3dHRLdzNmL1FXb3FZZVpLbExDRm9TOUJYbkFMWkk4SERHeE9NOWZYL2tMNVI3QzRXL0FCcElrU3BPeHhQcUxER280a1NNWGZzdUJMSEQzNG1mYkhUWXZ5Zjc1Q3cwemRKOWtSaUduK0hvakNJS2dFS2ZNeFpmRXoyR0tnMFBqVlJaRFFtcDQ4cVNIRnNyZThBamh2bDhHVzVuZ0M3M3BSbjl4clJUYzBPc3BXSDZMNzFISFdnbHV3R0wwcUtQNDRIbkVtZFR5YlFUempRbHlBbHlxV1VZeUdyN0lobUxzU3BDbEx5ajNJSDdySXJwSGZsRnBTaWhKemZicklaSk9BVVRCd3h3MUtneGVpaXdBbDVRTG5rWVVTZlBNNEdueHdPenZSWC9VNk95dE9iRE9pQzVoNlYwcEsyb2tsTk0=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -47,9 +47,8 @@ MonoBehaviour:
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
-      type: 3}
-    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundShader: {fileID: 0}
+    matteShader: {fileID: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
