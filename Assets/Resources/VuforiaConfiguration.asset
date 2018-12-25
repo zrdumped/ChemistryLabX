@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AYYq2DT/////AAABmYYOHrLJ/0FRpfGxNyUwuag5HHOq3CjHc/EmFviKJc8F3vatyk8PzTVt2MuO5Dsc+/rF+rKTrh5g7CQ4w2IqpgZHk5c0w3Vce1pgLvRYv4M+q4zdsdLHFpUyBuv2LlGqvDDRiobtPx4j29Lxx7JtO+l0po6myQL3Bx9x8cGzs+CYhh6VjerG22VNA3OXpIMJvXBSFkpZ/05C7m+XUHS/aeafODnS2oe7M7FkNXRgUHbzSuoblrTSXOlYNs2RAreUs7lG1KbpbCLnN0obs0G/zG3ir8VBp8Vaixob53WB7SFaI/HpwLxaczLGkuoN0mLB0YiNgDJJSBof5wws5Wy3gDGeLdyQArkTv4vawAJAnWWk
     ufoLicenseKey: QVZNSWhNdi8vLy8vQUFBQUtIVWdWZC9kTVU2NnJsQ042RXhlRjNNVDFzRjR6cVNyQXRQTlU2TTMveUM2SlV3dHRLdzNmL1FXb3FZZVpLbExDRm9TOUJYbkFMWkk4SERHeE9NOWZYL2tMNVI3QzRXL0FCcElrU3BPeHhQcUxER280a1NNWGZzdUJMSEQzNG1mYkhUWXZ5Zjc1Q3cwemRKOWtSaUduK0hvakNJS2dFS2ZNeFpmRXoyR0tnMFBqVlJaRFFtcDQ4cVNIRnNyZThBamh2bDhHVzVuZ0M3M3BSbjl4clJUYzBPc3BXSDZMNzFISFdnbHV3R0wwcUtQNDRIbkVtZFR5YlFUempRbHlBbHlxV1VZeUdyN0lobUxzU3BDbEx5ajNJSDdySXJwSGZsRnBTaWhKemZicklaSk9BVVRCd3h3MUtneGVpaXdBbDVRTG5rWVVTZlBNNEdueHdPenZSWC9VNk95dE9iRE9pQzVoNlYwcEsyb2tsTk0=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -47,8 +47,9 @@ MonoBehaviour:
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 0}
-    matteShader: {fileID: 0}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
@@ -63,7 +64,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Logitech HD Webcam C310
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
