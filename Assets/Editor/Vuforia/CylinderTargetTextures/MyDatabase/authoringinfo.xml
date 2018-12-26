@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VuforiaUnityInfo version="7.0">
     <TargetSet version="5.0" toolVersion="2.7.4">
-        <CylinderTarget name="SmallBeaker" version="3.0" targetId="0890d11ae31e4f82b63e23adad182bd6" sideLength="0.034000" topDiameter="0.046790" bottomDiameter="0.046790" sideImage="SmallBeaker.Body_scaled.jpg"/>
+        <CylinderTarget name="SmallBeaker" version="3.0" targetId="e6caf5dffa634d50b1c03de6f104be44" sideLength="0.330000" topDiameter="0.455200" bottomDiameter="0.455200" sideImage="SmallBeaker.Body_scaled.jpg"/>
+        <CylinderTarget name="BigBeaker" version="3.0" targetId="aaee67d1cbd84da8923bb320eb6c47df" sideLength="0.250000" topDiameter="0.573000" bottomDiameter="0.573000" sideImage="BigBeaker.Body_scaled.jpg"/>
     </TargetSet>
 </VuforiaUnityInfo>
