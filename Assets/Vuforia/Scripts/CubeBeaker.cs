@@ -1,22 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Beaker : MonoBehaviour {
-
+public class CubeBeaker : MonoBehaviour
+{
     Vector3 cubeStartPosition;
     Quaternion cubeStartRotation;
     
 	void Start ()
     {
-        var cube = transform.Find("Cube").transform;
+        var cube = transform.Find("cube").transform;
         cubeStartPosition = cube.localPosition;
-        cubeStartRotation = cube.localRotation;
+        cubeStartRotation = cube.rotation;
 	}
 	
     public void ResetCubeTransform()
     {
-        var cube = transform.Find("Cube").transform;
+        var cube = transform.Find("cube").transform;
         cube.localPosition = cubeStartPosition;
         cube.localRotation = cubeStartRotation;
     }
