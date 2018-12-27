@@ -17,5 +17,6 @@ public class CubeBeaker : MonoBehaviour
         var cube = transform.Find("cube").transform;
         cube.localPosition = cubeStartPosition;
         cube.localRotation = cubeStartRotation;
+        cube.gameObject.GetComponent<Renderer>().enabled = true;
     }
 }

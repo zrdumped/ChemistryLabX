@@ -8,8 +8,6 @@ public class Substance : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.transform.name + " Enter " + transform.name);
-
         Substance otherSubstance = other.GetComponent<Substance>();
 
         // if two chemical collide
@@ -17,8 +15,8 @@ public class Substance : MonoBehaviour {
         {
             if (formula == "Fe" && otherSubstance.formula == "HCl")
             {
-                Debug.Log("Correct");
                 otherSubstance.gameObject.GetComponent<MeshRenderer>().material.color = new Color(99f / 255, 110f / 255, 3f / 255, 141f / 255);
+                gameObject.GetComponent<Renderer>().enabled = false;
             }
         }
     }
