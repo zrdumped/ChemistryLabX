@@ -15,8 +15,8 @@ public class Substance : MonoBehaviour {
         {
             if (formula == "Fe" && otherSubstance.formula == "HCl")
             {
-                otherSubstance.gameObject.GetComponent<MeshRenderer>().material.color = new Color(99f / 255, 110f / 255, 3f / 255, 141f / 255);
                 gameObject.GetComponent<Renderer>().enabled = false;
+                otherSubstance.gameObject.GetComponent<MeshRenderer>().material.color = new Color(99f / 255, 110f / 255, 3f / 255, 141f / 255);
             }
         }
     }
